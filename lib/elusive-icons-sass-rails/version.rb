@@ -1,8 +1,8 @@
-module Font
-  module Awesome
+module Elusive
+  module Icons
     module Sass
       module Rails
-        VERSION = "2.0.0.0"
+        VERSION = "1.0.0.0"
       end
     end
   end

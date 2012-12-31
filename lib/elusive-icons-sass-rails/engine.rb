@@ -1,5 +1,5 @@
-module Font
-  module Awesome
+module Elusive
+  module Icons
     module Sass
       module Rails
         class Engine < ::Rails::Engine

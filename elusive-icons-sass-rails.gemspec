@@ -1,17 +1,15 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "font-awesome-sass-rails/version"
+require "elusive-icons-sass-rails/version"
 
 Gem::Specification.new do |s|
-  s.name        = "font-awesome-sass-rails"
-  s.version     = Font::Awesome::Sass::Rails::VERSION
-  s.authors     = ["Hsiao-Ting Yu"]
-  s.email       = ["sst.dreams@gmail.com"]
-  s.homepage    = "https://github.com/littlebtc/font-awesome-sass-rails"
-  s.summary     = %q{Font Awesome in SASS for Rails}
-  s.description = %q{Font Awesome, SASS version, with assets pipeline, for Rails 3.1+}
-
-  s.rubyforge_project = "font-awesome-sass-rails"
+  s.name        = "elusive-icons-sass-rails"
+  s.version     = Elusive::Icons::Sass::Rails::VERSION
+  s.authors     = ["Nicole Aptekar"]
+  s.email       = ["nicoletbn@gmail.com"]
+  s.homepage    = "https://github.com/nicoles/"
+  s.summary     = %q{Elusive Icons in SASS for Rails}
+  s.description = %q{Elusive Icons, SASS version, with assets pipeline, for Rails 3.1+}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

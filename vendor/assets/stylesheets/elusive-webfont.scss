@@ -2,15 +2,28 @@ $elusiveWebfontPath: "Elusive-Icons" !default;
 
 @font-face{
     font-family: 'Elusive-Icons';
-    src: font-url("#($elusiveWebfontPath}.eot");
-    src: font-url("#{$elusiveWebfontPath}.woff") unquote("format('woff')"),
+    src: font-url("#{$elusiveWebfontPath}.eot");
+    src: font-url("#{$elusiveWebfontPath}.eot#iefix") unquote("format('embedded-opentype')"),
+         font-url("#{$elusiveWebfontPath}.woff") unquote("format('woff')"),
          font-url("#{$elusiveWebfontPath}.ttf") unquote("format('truetype')"),
-         font-url("#{$elusiveWebfontPath}.svgz#FontAwesomeRegular") unquote("format('svg')"),
-         font-url("#{$elusiveWebfontPath}.svg#FontAwesomeRegular") unquote("format('svg')");
+         font-url("#{$elusiveWebfontPath}.svg#Elusive-Icons") unquote("format('svg')");
     font-weight: normal;
     font-style: normal;
 }
-
+/* sprites.less reset */
+[class^="icon-"], [class*=" icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+li[class^="icon-"], li[class*=" icon-"] {
+  display: block;
+}
 /*  Elusive Icons styles
     ------------------------------------------------------- */
 

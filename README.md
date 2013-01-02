@@ -32,4 +32,6 @@ You can also use it with the SASS-converted Bootstrap gem, like [bootstrap-sass]
 
 The font and SCSS from [Elusive Icons](http://aristath.github.com/elusive-iconfont/)  are under [SIL](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
 
+Original code for gem etc from [font-awesome-sass-rails](https://github.com/littlebtc/font-awesome-sass-rails) under MIT license.
+
 Others are under MIT license.

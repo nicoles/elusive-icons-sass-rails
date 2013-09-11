@@ -19,6 +19,8 @@ Add `elusive-icons-sass-rails` gem to your `assets` group in the `Gemfile`:
 Then in your `app/assets/stylesheets/application.css`:
 
     @import 'elusive-webfont';
+    @import 'elusive-webfont-ie7';
+    
 
 That's it!
 
